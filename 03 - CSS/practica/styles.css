@@ -1,14 +1,14 @@
-ul {
+ul.menu {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
   background-color: white;
 }
-li {
+li.menu {
   float: left;
 }
-li a {
+li.menu a {
   display: block;
   color: black;
   text-align: center;
@@ -22,4 +22,5 @@ li a:hover {
 .active {
   background-color: blue;
   color: white;
+  border-radius: 5px;
 }
