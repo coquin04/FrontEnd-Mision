@@ -34,3 +34,16 @@ li a:hover {
   text-align: center;
   padding: 20px;
 }
+/* background class*/
+.nurse-back {
+  background-image: url("nurse-img");
+  background-color: transparent;
+}
+.patient-back {
+  background-image: url("patient-img");
+  background-color: transparent;
+}
+.medic-back {
+  background-image: url("medic-img");
+  background-color: transparent;
+}
