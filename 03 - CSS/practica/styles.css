@@ -1,3 +1,4 @@
+/* Estilos para los elementos de la lista*/
 ul.menu {
   list-style-type: none;
   margin: 0;
@@ -23,4 +24,13 @@ li a:hover {
   background-color: blue;
   color: white;
   border-radius: 5px;
+}
+/* Estilos para las grids*/
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  background-color: azure;
+  border: 0px;
+  text-align: center;
+  padding: 20px;
 }
