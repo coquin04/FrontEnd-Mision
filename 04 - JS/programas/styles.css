@@ -1,4 +1,37 @@
 body {
-  background-image: url("Pokedex.png");
+  background-image: url("./Pokedex.png");
   background-repeat: no-repeat;
+}
+.searchPokemon {
+  position: absolute;
+  top: 640px;
+  left: 80px;
+  border-radius: 50%;
+  background-color: rgb(70, 70, 156);
+  color: azure;
+}
+
+.nextPokemon {
+  position: absolute;
+  top: 640px;
+  left: 450px;
+  border-radius: 50%;
+  background-color: rgb(0, 0, 0);
+  color: azure;
+}
+
+.previousPokemon {
+  position: absolute;
+  top: 640px;
+  left: 550px;
+  border-radius: 50%;
+  background-color: rgb(0, 0, 0);
+  color: azure;
+}
+
+.pokemonImg {
+  position: absolute;
+  top: 250px;
+  left: 220px;
+  background-color: white;
 }
