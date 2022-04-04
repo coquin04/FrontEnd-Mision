@@ -22,8 +22,14 @@
     ></script>
   </head>
   <body>
-    <h1>Pokedex LaunchX</h1>
-    <input type="text" placeholder="pikachu" id="pokeName" name="pokeName" />
+    <h1 class="mainTitle">Pokedex LaunchX</h1>
+    <input
+      type="text"
+      placeholder="pikachu"
+      id="pokeName"
+      name="pokeName"
+      class="pokemonName"
+    />
     <img
       src="./pokeball.svg"
       alt="Pokemon"
@@ -32,9 +38,7 @@
       height="250px"
       class="pokemonImg"
     />
-    <button class="searchPokemon" onclick="fetchPokemon()">
-      Cambiar Imágen
-    </button>
+    <button class="searchPokemon" onclick="fetchPokemon()">Buscar</button>
   </body>
   <footer>
     <script src="./4.-pokedex.js"></script>
